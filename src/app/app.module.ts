@@ -7,13 +7,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './hero/hero.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { HowItCardComponent } from './how-it-card/how-it-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    HowItWorksComponent
+    HowItWorksComponent,
+    HowItCardComponent
   ],
   imports: [
     BrowserModule,
