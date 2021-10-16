@@ -10,8 +10,11 @@ $container-max-widths: (
   lg: 1270px,
   xl: 1270px
 );
-
+$font-size-base: 0.875rem;
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
