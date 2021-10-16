@@ -1,0 +1,52 @@
+.hero-bg {
+  background-image: url(../../assets/images/hero/hero.png);
+  background-size: 135%;
+  height: 100%;
+  min-height: 120vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.bg-hero {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 0;
+}
+
+#title {
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.a-side {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 12;
+}
+
+.main-tile {
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+  word-spacing: -8px;
+  line-height: 4rem;
+}
+
+p {
+  color: white;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+a {
+  display: inline-block;
+  width: 200px;
+}
