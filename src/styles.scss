@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 $primary: #02796F;
 $dark: #151716;
+$warning: #F5C042;
+
+$container-max-widths: (
+  xs: 1270px,
+  sm: 1270px,
+  md: 1270px,
+  lg: 1270px,
+  xl: 1270px
+);
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 
