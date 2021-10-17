@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './hero/hero.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItCardComponent } from './how-it-card/how-it-card.component';
+import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-seller-hub.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HowItCardComponent } from './how-it-card/how-it-card.component';
     NavbarComponent,
     HeroComponent,
     HowItWorksComponent,
-    HowItCardComponent
+    HowItCardComponent,
+    WhyChooseSellerHubComponent
   ],
   imports: [
     BrowserModule,
