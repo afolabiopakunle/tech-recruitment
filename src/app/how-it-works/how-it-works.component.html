@@ -1,20 +1,19 @@
 <div class="it-works">
-  <div class="row">
-    <div class="col main">
-      <h4 class="title">How it works</h4>
-      <p>Become a member on the SellersHub platform by creating an account either using your social media account or
-        email account. Proceed to create store and begin upload of store details, then await your dashboard where items
-        can be uploaded and all inventory managed.</p>
+
+  <div class="col main">
+    <h4 class="title">How it works</h4>
+    <p>Become a member on the SellersHub platform by creating an account either using your social media account or
+      email account. Proceed to create store and begin upload of store details, then await your dashboard where items
+      can be uploaded and all inventory managed.</p>
+  </div>
+  <div class="how-it-cards">
+    <div class="row bs">
+      <div class="col-md-4" *ngFor="let card of howItList">
+        <app-how-it-card [card]="card"></app-how-it-card>
+      </div>
     </div>
-    <div class="how-it-cards">
-        <div class="row">
-          <div class="col-md-4" *ngFor="let card of howItList">
-            <app-how-it-card [card]="card"></app-how-it-card>
-          </div>
-        </div>
-      <img class="ring" src="../../assets/images/how-it-works/artefacts/ring-artifacts.svg" alt="">
-      <img class="swirle" src="../../assets/images/how-it-works/artefacts/swirle-libe.svg" alt="">
-      <img class="circle" src="../../assets/images/how-it-works/artefacts/circle-artifacts.svg" alt="">
-    </div>
+    <img class="ring" src="../../assets/images/how-it-works/artefacts/ring-artifacts.svg" alt="">
+    <img class="swirle" src="../../assets/images/how-it-works/artefacts/swirle-libe.svg" alt="">
+    <img class="circle" src="../../assets/images/how-it-works/artefacts/circle-artifacts.svg" alt="">
   </div>
 </div>

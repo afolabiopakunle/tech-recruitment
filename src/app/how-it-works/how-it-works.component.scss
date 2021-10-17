@@ -21,3 +21,30 @@ h4 {
   padding-bottom: 3.5rem;
   position: relative;
 }
+
+.circle {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+  width: 41px;
+}
+
+.ring {
+  position: absolute;
+  top: 19%;
+  left: 11%;
+  z-index: -1;
+}
+
+.swirle {
+  position: absolute;
+  z-index: -1;
+  right: 10%;
+  top: 20%;
+  height: 416px;
+}
+
+.bs {
+  max-width: 940px;
+  margin: 0 auto;
+}
