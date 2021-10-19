@@ -8,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   constructor() { }
+  show: boolean = true;
 
   ngOnInit(): void {
+  }
+
+  hideIcon() {
+    this.show = !this.show;
   }
 
 }

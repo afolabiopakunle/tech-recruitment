@@ -22,8 +22,36 @@
   color: #02796F;
 }
 
+.split-up {
+  display: flex;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: space-between;
+  }
+
+  .seller-hub {
+    display: none
+  }
+}
+
+@media (max-width: 992px) {
+  .split-up {
+    display: block;
+  }
+
+  .seller-hub {
+    display: block
+  }
+
+  .navbar-brand {
+    margin-top: 1rem;
+    display: block;
+  }
+
+  .register-btn {
+    margin-inline: 0.5rem;
+    margin-block: 0.5rem;
   }
 }
