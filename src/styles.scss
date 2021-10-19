@@ -21,19 +21,9 @@ $font-size-base: 0.875rem;
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @import "./node_modules/swiper/swiper";
-@import "node_modules/swiper/modules/navigation/navigation";
 @import "node_modules/swiper/modules/pagination/pagination";
 @import "node_modules/swiper/modules/autoplay/autoplay";
 @import "node_modules/swiper/modules/scrollbar/scrollbar";
-
-
-body,
-html {
-  padding: 0;
-  margin: 0;
-  position: relative;
-  height: 100%;
-}
 
 .swiper-container {
   width: 100%;
