@@ -9,6 +9,7 @@ import { HeroComponent } from './hero/hero.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItCardComponent } from './how-it-card/how-it-card.component';
 import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-seller-hub.component';
+import { SuccessfulStoriesComponent } from './successful-stories/successful-stories.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-
     HeroComponent,
     HowItWorksComponent,
     HowItCardComponent,
-    WhyChooseSellerHubComponent
+    WhyChooseSellerHubComponent,
+    SuccessfulStoriesComponent
   ],
   imports: [
     BrowserModule,
