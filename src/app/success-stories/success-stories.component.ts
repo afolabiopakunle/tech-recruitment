@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 
 // import Swiper core and required components
-import SwiperCore , {
+import SwiperCore, {
   Pagination,
   Scrollbar,
   A11y,
@@ -11,6 +11,7 @@ import SwiperCore , {
   Thumbs,
   Controller,
 } from 'swiper';
+import {StoryModel} from "./story.model";
 
 // install Swiper components
 SwiperCore.use([
@@ -34,9 +35,24 @@ export class SuccessStoriesComponent implements OnInit {
   constructor() {
 
   }
-  ngOnInit() {}
+
+  ngOnInit() {
+  }
 
 
-
+  stories: StoryModel[] = [
+    {
+      story: 'Ever since I joined kaiglo, I have experienced improved sales due to their market insight data.',
+      owner: 'Afolabi Opakunle'
+    },
+    {
+      story: 'Software has been employed by our firm for a couple of years now. The workings around it are pretty much simple and easy to understand, especially as it relates',
+      owner: 'Emmanuel Macron'
+    },
+    {
+      story: 'HumanManager has made our payroll processing very seamless and efficient. It is easy to understand and use.',
+      owner: 'Nelson Eboghade'
+    },
+  ]
 
 }

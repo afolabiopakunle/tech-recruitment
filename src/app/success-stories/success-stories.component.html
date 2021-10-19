@@ -1,18 +1,15 @@
-<div>
-  <h4>data-swiper-autoplay</h4>
+<div class="clipped">
+  <h2>Successful stories</h2>
   <swiper [loop]="true" [autoHeight]="true" [allowTouchMove]="false"
-          [autoplay]="{ delay: 1000, disableOnInteraction: false }"  [pagination]="{ clickable: true }"
+          [autoplay]="{ delay: 1000, disableOnInteraction: false }" [pagination]="{ clickable: true }"
           [navigation]="true">
-    <ng-template data-swiper-autoplay="6000" swiperSlide>
-      Slide 1
-    </ng-template>
-
-    <ng-template data-swiper-autoplay="6000" class="swiper-slide" swiperSlide>
-      Slide 2
-    </ng-template>
-
-    <ng-template data-swiper-autoplay="6000" swiperSlide>
-      Slide 3
-    </ng-template>
+    <ng-container *ngFor="let story of stories">
+      <ng-template data-swiper-autoplay="4000" swiperSlide>
+        <div class="slider-panel">
+          <h3>{{ story.story }}</h3>
+          <p> {{ story.owner }}</p>
+        </div>
+      </ng-template>
+    </ng-container>
   </swiper>
 </div>
