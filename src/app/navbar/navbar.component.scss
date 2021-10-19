@@ -21,3 +21,9 @@
 .nav-link:hover {
   color: #02796F;
 }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+  }
+}

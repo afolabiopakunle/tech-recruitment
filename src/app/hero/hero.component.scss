@@ -1,20 +1,11 @@
-.hero-bg {
-  background-image: url(../../assets/images/hero/hero.png);
-  background-size: 135%;
-  height: 100%;
-  min-height: 120vh;
+.main-tile {
+  background-color: #F8F8F8;
+  background-image: url("../../assets/images/hero/hero.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
+  height: 100vh;
+  background-position-x: 70%;
 }
-
-.bg-hero {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  z-index: 0;
-}
-
 #title {
   color: white;
   font-weight: 800;
@@ -26,11 +17,6 @@
   justify-content: center;
   flex-direction: column;
   z-index: 12;
-}
-
-.main-tile {
-  height: 100vh;
-  background-color: #F8F8F8;
 }
 
 h1 {

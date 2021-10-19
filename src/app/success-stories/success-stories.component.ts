@@ -47,8 +47,8 @@ export class SuccessStoriesComponent implements OnInit {
       imageUrl: '../../assets/images/success-stories/baby-boss-1.png'
     },
     {
-      story: 'Software has been employed by our firm for a couple of years now. The workings around it are pretty much simple and easy to understand, especially as it relates',
-      owner: 'Emmanuel Macron',
+      story: 'Software has been employed by our firm for a couple of years now. The workings around it are pates',
+      owner: 'Emmanuel',
       imageUrl: '../../assets/images/success-stories/baby-boss-2.jpg'
     },
     {
