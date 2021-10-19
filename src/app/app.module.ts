@@ -11,6 +11,7 @@ import { HowItCardComponent } from './how-it-card/how-it-card.component';
 import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-seller-hub.component';
 import { SuccessfulStoriesComponent } from './successful-stories/successful-stories.component';
 import { FooterComponent } from './footer/footer.component';
+import {SwiperModule} from "swiper/angular";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
