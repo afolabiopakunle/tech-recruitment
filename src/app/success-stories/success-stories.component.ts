@@ -43,15 +43,18 @@ export class SuccessStoriesComponent implements OnInit {
   stories: StoryModel[] = [
     {
       story: 'Ever since I joined kaiglo, I have experienced improved sales due to their market insight data.',
-      owner: 'Afolabi Opakunle'
+      owner: 'Afolabi Opakunle',
+      imageUrl: '../../assets/images/success-stories/baby-boss-1.png'
     },
     {
       story: 'Software has been employed by our firm for a couple of years now. The workings around it are pretty much simple and easy to understand, especially as it relates',
-      owner: 'Emmanuel Macron'
+      owner: 'Emmanuel Macron',
+      imageUrl: '../../assets/images/success-stories/baby-boss-2.jpg'
     },
     {
       story: 'HumanManager has made our payroll processing very seamless and efficient. It is easy to understand and use.',
-      owner: 'Nelson Eboghade'
+      owner: 'Nelson Eboghade',
+      imageUrl: '../../assets/images/success-stories/baby-boss-1.png'
     },
   ]
 

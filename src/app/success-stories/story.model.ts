@@ -1,4 +1,5 @@
 export interface StoryModel {
   story: string,
-  owner: string
+  owner: string,
+  imageUrl: string
 }

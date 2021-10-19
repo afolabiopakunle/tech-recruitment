@@ -1,15 +1,22 @@
 <div class="clipped">
   <h2>Successful stories</h2>
-  <swiper [loop]="true" [autoHeight]="true" [allowTouchMove]="false"
-          [autoplay]="{ delay: 1000, disableOnInteraction: false }" [pagination]="{ clickable: true }"
-          [navigation]="true">
-    <ng-container *ngFor="let story of stories">
-      <ng-template data-swiper-autoplay="4000" swiperSlide>
-        <div class="slider-panel">
-          <h3>{{ story.story }}</h3>
-          <p> {{ story.owner }}</p>
-        </div>
-      </ng-template>
-    </ng-container>
-  </swiper>
+  <div class="slider-box">
+      <swiper [loop]="true" [autoHeight]="true" [allowTouchMove]="false"
+              [autoplay]="{ delay: 1000, disableOnInteraction: false }" [pagination]="{ clickable: true }"
+              [navigation]="true">
+        <ng-container *ngFor="let story of stories">
+          <ng-template data-swiper-autoplay="4000" swiperSlide>
+            <div class="div-split">
+              <div>
+                <img [src]="story.imageUrl" alt="">
+              </div>
+              <div>
+                <p>{{ story.story }}</p>
+                <h3> {{ story.owner }}</h3>
+              </div>
+            </div>
+          </ng-template>
+        </ng-container>
+      </swiper>
+    </div>
 </div>
