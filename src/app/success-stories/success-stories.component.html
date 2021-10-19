@@ -1,0 +1,16 @@
+<div>
+  <h4>data-swiper-autoplay</h4>
+  <swiper
+    [loop]="true"
+    [autoHeight]="true"
+    [allowTouchMove]="false"
+    [autoplay]="{ delay: 1000, disableOnInteraction: false }"
+    [pagination]="{ clickable: true }"
+    [navigation]="true"
+  >
+    <ng-template
+      data-swiper-autoplay="6000"
+      swiperSlide>
+      Slide 1
+    </ng-template>
+  </swiper>

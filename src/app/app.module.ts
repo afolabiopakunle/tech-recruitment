@@ -10,7 +10,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItCardComponent } from './how-it-card/how-it-card.component';
 import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-seller-hub.component';
 import { FooterComponent } from './footer/footer.component';
-import {SwiperModule} from "swiper/angular";
+import {SuccessStoriesComponent} from "./success-stories/success-stories.component";
 
 @NgModule({
   declarations: [
@@ -20,15 +20,16 @@ import {SwiperModule} from "swiper/angular";
     HowItWorksComponent,
     HowItCardComponent,
     WhyChooseSellerHubComponent,
-    FooterComponent
+    FooterComponent,
+    SuccessStoriesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    SwiperModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
