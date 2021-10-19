@@ -10,6 +10,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItCardComponent } from './how-it-card/how-it-card.component';
 import { WhyChooseSellerHubComponent } from './why-choose-seller-hub/why-choose-seller-hub.component';
 import { SuccessfulStoriesComponent } from './successful-stories/successful-stories.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SuccessfulStoriesComponent } from './successful-stories/successful-stor
     HowItWorksComponent,
     HowItCardComponent,
     WhyChooseSellerHubComponent,
-    SuccessfulStoriesComponent
+    SuccessfulStoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
