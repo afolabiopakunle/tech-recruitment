@@ -45,3 +45,11 @@ a {
 .privacy {
   color: #4186D9;
 }
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 0 !important;
+  padding-left: 0;
+}

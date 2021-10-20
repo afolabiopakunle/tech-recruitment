@@ -26,6 +26,10 @@
   display: flex;
 }
 
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: space-between;
