@@ -6,6 +6,10 @@
   flex-wrap: wrap;
 }
 
+.spread-div div {
+  margin: 1rem
+}
+
 h5 {
   color: #02796F;
   font-weight: bold;
@@ -15,4 +19,19 @@ h5 {
 a {
   display: block;
   text-decoration: none;
+  margin-block: 1rem;
+}
+
+.stores {
+  display: flex;
+  margin: 0 !important;
+}
+
+.stores img {
+  width: 95px;
+  margin: 5px
+}
+
+.stores a {
+  margin-block: 0 !important;
 }
