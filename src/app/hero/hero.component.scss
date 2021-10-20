@@ -38,3 +38,11 @@ a {
   display: inline-block;
   width: 200px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 4rem;
+  }
+}
