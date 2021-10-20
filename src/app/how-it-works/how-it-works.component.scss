@@ -50,7 +50,8 @@ h4 {
   position: absolute;
   z-index: -1;
   bottom: -20px;
-  left: 20px;
+  width: 90px;
+  left: 30%;
 }
 
 .bs {
@@ -67,5 +68,9 @@ h4 {
     top: 15%;
     left: 3%;
     width: 31%;
+  }
+
+  .triangle {
+    left: 20px;
   }
 }
