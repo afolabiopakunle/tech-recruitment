@@ -44,17 +44,20 @@ export class SuccessStoriesComponent implements OnInit {
     {
       story: 'Ever since I joined kaiglo, I have experienced improved sales due to their market insight data.',
       owner: 'Afolabi Opakunle',
-      imageUrl: '../../assets/images/success-stories/baby-boss-1.png'
+      imageUrl: '../../assets/images/success-stories/baby-boss-1.png',
+      role: 'CE0 Errands Hub'
     },
     {
       story: 'Software has been employed by our firm for a couple of years now. The workings around it are pates',
       owner: 'Emmanuel',
-      imageUrl: '../../assets/images/success-stories/baby-boss-2.jpg'
+      imageUrl: '../../assets/images/success-stories/baby-boss-2.jpg',
+      role: 'GMD Sterling Bank'
     },
     {
       story: 'HumanManager has made our payroll processing very seamless and efficient. It is easy to understand and use.',
       owner: 'Nelson Eboghade',
-      imageUrl: '../../assets/images/success-stories/baby-boss-1.png'
+      imageUrl: '../../assets/images/success-stories/baby-boss-1.png',
+      role: 'Customer Experience'
     },
   ]
 

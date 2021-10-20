@@ -7,10 +7,10 @@
         <ng-container *ngFor="let story of stories">
           <ng-template data-swiper-autoplay="4000" swiperSlide>
             <div class="div-split">
-              <div>
+              <div class="image">
                 <img [src]="story.imageUrl" alt="">
               </div>
-              <div>
+              <div class="bulk">
                 <a class="btn btn-primary">Store Owner</a>
                 <p>{{ story.story }}</p>
                 <h3> {{ story.owner }}</h3>
